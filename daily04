@@ -1,1 +1,1001 @@
 
+  282  tree BIG
+  283  users
+  284  pwd
+  285  ls BIG/Cinema
+  286  touch BIG/Cinema/cinemacity/menu.txt
+  287  mv BIG/Cinema/cinemacity BIG/Cinema/cite
+  288  mv BIG/BIG/Cinema/cite BIG/Cinema/cinemacity
+  289  mv BIG/Cinema/cite BIG/Cinema/cinemacity
+  290  cd ../Jpanika
+  291  cd bbig/Cinema/Jpanika
+  292  cd BIG/Cinema/Jpanika
+  293  mv . ../../FOOD/
+  294  mv ../Jpanika ../../FOOD/
+  295  tree
+  296  tree ../../BIG
+  297  tree ../../../BIG
+  298  mv ../Cinema/mybaby ../Cinema/yesplanet
+  299  mv ../mybaby ../yesplanet
+  300  cd ..
+  301  cd Jpanika
+  302  mv ../../Cinema/mybaby ../../Cinema/yesplanet 
+  303  rm ../BBB ../../Cinema/yesplanet
+  304  rm -r ../BBB ../../Cinema/yesplanet
+  305  tree ../../../BIG
+  306  ls -a ../../../
+  307  ls -l ../../../
+  308  find --help
+  309  ls -l ../../../
+  310  ls -l ../../
+  311  find ../../ -type d
+  312  find ../../ -type d | grep "^c"
+  313  find ../../ -type d | grep "c"
+  314  find ../../ -type d | grep "/c"
+  315  find ../../ -type d -name "^c"
+  316  find ../../ -type d -name "c*"
+  317  find ../../ -type d -name "/c*"
+  318  find ../../ -type d -name "c*"
+  319  find --help
+  320  man find
+  321  man find | grep "-name"
+  322  man find | grep "name"
+  323  man find
+  324  tree ../../../BIG
+  325  touch noodles.txt ../McDonalds/nopizza.txt
+  326  find ../../
+  327  find ../../ -type f -name ".txt$"
+  328  find ../../ -type f -name ".txt"
+  329  find ../../ -type f -name "txt"
+  330  find ../../ -type f 
+  331  find ../../ -type f -name "*.txt$"
+  332  find ../../ -type f -name "*.txt"
+  333  find ../../ -type f -name "txt$"
+  334  find ../../ -type f -name "*.txt"
+  335  find ../../ -type f -empty -exec rm {} +
+  336  find ../../ -type f -name "*.txt"
+  337  tree ../../
+  338  find ../../ -type d -empty -exec rm {} +
+  339  find ../../ -type d -empty -exec rm -r {} +
+  340  tree ../../
+  341  tree ../../../
+  342  cd
+  343  tree
+  344  cd BIG
+  345  tree
+  346  find Cinema -type d -empty -exec rmdir {} +
+  347  tree
+  348  ifconfig
+  349  echo "hello from putty" > Desktop/BIG/away.txt
+  350  cd
+  351  pwd
+  352  ls
+  353  echo "hello from putty" > DesBIG/away.txt
+  354  echo "hello from putty" > BIG/away.txt
+  355  cat BIG/away.txt
+  356  chmod BIG/away.txt u+x
+  357  chmod u+x BIG/away.txt
+  358  ./BIG/away.txt
+  359  nano BIG/away.txt
+  360  ./BIG/away.txt
+  361  rm -r BIG
+  362  ls
+  363  tree
+  364  mkdir -p calendar/{month,week}
+  365  cd calender/month
+  366  cd calendar/month
+  367  cd /home/kinan/Desktop/calendar/month/
+  368  pwd
+  369  cd -
+  370  cd ..
+  371  touch month/file{1,2}.txt
+  372  ls month
+  373  touch month/file{3-5}.txt
+  374  ls month
+  375  touch month/file{3..5}.txt
+  376  ls month
+  377  rm month/file{3-5}.txt
+  378  touch month/file{6..10}.txt
+  379  ls month
+  380  rm month/*
+  381  touch month/file{1,3,5,7,9}.txt
+  382  ls month
+  383  rm month/*
+  384  touch month/file{1..10..2}.txt
+  385  ls month
+  386  ls -l month
+  387  ls -l month/file{5..9}.txt
+  388  touch month/f
+  389  ls -l ?
+  390  ls -l month/?
+  391  ls -l month/file?.txt
+  392  ls -l month/file?
+  393  ls -l month/file*
+  394  ls -l month/file?????
+  395  ls -l --help
+  396  history
+  397  touch chicken{1..9}.txt
+  398  ls
+  399  ls chicken{2..9..2}.txt
+  400  ls -r
+  401  ls chicken{1..4}.txt
+  402  touch 123 abc s3
+  403  ls chicken{1..4}.txt
+  404  ls
+  405  ls "???"
+  406  ls ???
+  407  ls *1*
+  408  ls *3
+  409  ls *3.txt
+  410  ls *.txt
+  411  ls 1?2
+  412  ls 1?3
+  413  ls a??
+  414  ls a*
+  415  rm *
+  416  cd
+  417  rmdir asa
+  418  cd -
+  419  cd ..
+  420  rmdir asa
+  421  pwd
+  422  less /usr/share/dict/american-english
+  423  cp /u ~/Desktop/regularexp.txt
+  424  cd Desktop
+  425  grep cat  regularexp.txt
+  426  grep ^cat$ regularexp.txt
+  427  grep ^c.t$ regularexp.txt
+  428  grep ^c..t$ regularexp.txt
+  429  grep [a-c]at$ regularexp.txt
+  430  grep ^[a-c]at$ regularexp.txt
+  431  grep [0-9]* regularexp.txt
+  432  grep [0-9]+ regularexp.txt
+  433  grep [0-9]+a regularexp.txt
+  434  grep [0-9]+a* regularexp.txt
+  435  grep [0-9]+A* regularexp.txt
+  436  grep ^c[a-z]t$ regularexp.txt
+  437  grep ^[A][a-z]t$ regularexp.txt
+  438  grep ^[A-Z][a-z]t$ regularexp.txt
+  439  grep ^[A-z][a-z]t$ regularexp.txt
+  440  grep ^[A-Z][a-z]t$ regularexp.txt
+  441  grep ^[[:alpha:]]t$ regularexp.txt
+  442  grep ^[[:alpha:]]*t$ regularexp.txt
+  443  grep \d  regularexp.txt
+  444  egrep \d  regularexp.txt
+  445  egrep /d  regularexp.txt
+  446  grep -E \d  regularexp.txt
+  447  egrep \w  regularexp.txt
+  448  egrep "\w" regularexp.txt
+  449  egrep "\s" regularexp.txt
+  450  egrep son\b regularexp.txt
+  451  egrep "son\b" regularexp.txt
+  452  egrep "^s" etc/passwd
+  453  egrep "^S" etc/passwd
+  454  grep "^s" /etc/passwd
+  455  grep "s" /etc/passwd
+  456  grep "[^s]" /etc/passwd
+  457  grep "[bash$]" /etc/passwd
+  458  grep "bash$" /etc/passwd
+  459  egrep "so{2}n" regularexp.txt
+  460  grep "so{2}n" regularexp.txt
+  461  grep -E "so{2}n" regularexp.txt
+  462  grep -E "^so{2}n$" regularexp.txt
+  463  grep -E "^so{2}n$+" regularexp.txt
+  464  grep -E "(^so{2}n$)+" regularexp.txt
+  465  grep -E "(^so{2}n$)*" regularexp.txt
+  466  grep -E "(^so{2}n$)+" regularexp.txt
+  467  grep -E "(bo+t" regularexp.txt
+  468  grep -E "bo+t" regularexp.txt
+  469  grep -E "bo*t" regularexp.txt
+  470  cp /etc/passwd passWithSed
+  471  sed 's/:/-/g' passWithSed
+  472  cat /etc/passwd
+  473  sed 's/bin/JASON/g' passWithSed 
+  474  sed 's/^bin/JASON/g' passWithSed 
+  475  sed 's/^bin/JASON/g' passWithSed | grep JASON
+  476  cat /etc/passwd
+  477  grep "kinan" /etc/passwd
+  478  cd Desktop
+  479  mkdir -p grocery/{bakery/cakes/{mini-rolls,bars},home/cleaning/{wipes,polish}}
+  480  tree grocery
+  481  mv grocery/bakery/cakes/mini-roles mv grocery/bakery/cakes/corason
+  482  mv grocery/bakery/cakes/mini-roles grocery/bakery/cakes/corason
+  483  tree grocery
+  484  cd grocery/bakery/cakes
+  485  mv mini-rolls corason
+  486  mv corason ../
+  487  tree grocery
+  488  tree ~/Desktop/grocery
+  489  cd ~/Desktop
+  490  rm -r grocery
+  491  mkdir -p grocery/{bakery/cakes/{mini-rolls,bars},home/cleaning/{wipes,polish}}
+  492  ls
+  493  rmdir grocery
+  494  rm -r grocery
+  495  cd Desktop
+  496  mkdir -p WordCup2022/{Asia/{Qatar,Japan,Morocco},Europe/{Wales,Poland,COroatia}}
+  497  tree WordCup2022
+  498  cd WordCup2022/Europe
+  499  mv COroatia Coroatia
+  500  mv Coroatia Croatia
+  501  tree ../../WordCup2022
+  502  cd ..
+  503  cd -
+  504  mv Asia/Morocco Asia/Saudia
+  505  tree 
+  506  mv Asia/Saudia/ Asia/Saudia
+  507  cd Asia
+  508  mkdir USA UK
+  509  ls ..
+  510  ls ??
+  511  ls -d ?????
+  512  ls -d .....
+  513  ls -d *
+  514  touch file{1..5}.txt
+  515  ls -l file(1,3}*
+  516  ls -l file{1,3}*
+  517  ..
+  518  cd ..
+  519  ls
+  520  tree
+  521  cd Europe
+  522  touch Croatia/cor
+  523  touch Wales/wel.txt
+  524  ll
+  525  ls -la
+  526  mv {Croatia,Wales}/* Poland
+  527  tree
+  528  rm Poland\*
+  529  ls
+  530  rm Poland/*
+  531  touch Wales/{kovitz.txt,sound.mp3} Croatia{abc,file.txt,file.doc}
+  532  mv {Croatia,Wales}/{*.txt,*.doc} Poland
+  533  mv {Croatia,Wales}/*.txt Poland
+  534  tree
+  535  touch Wales/{kovitz.txt,sound.mp3} Croatia/{abc,file.txt,file.doc}
+  536  tree
+  537  rm Poland/*
+  538  rm -f *
+  539  tree
+  540  mv Croatia/*.txt Wales/*.txt Poland
+  541  tree
+  542  mv Croatia/*.txt Wales/{*.txt,*.mp3} Poland
+  543  mv Wales/{*.txt,*.mp3} Poland
+  544  tree
+  545  mkdir -p Pokemon/{Caterpis/{Metapod,Butterfree},Squirtle/{Wartirtke,Arbok}}
+  546  tree Pokemon
+  547  mv Pokemon/Squirtle/Wartirtke Pokemon/Squirtle/Wartortle
+  548  tree Pokemon
+  549  mv Pokemon/Squirtle/Arbok Pokemon/Squirtle/Blastoise
+  550  mv Pokemon/Caterpis Pokemon/Caterpie
+  551  tree Pokemon
+  552  tree Pokemon/
+  553  find Pokemon/ -type d -name "*{8,}"
+  554  find Pokemon/ -type d -name "*{8}"
+  555  find Pokemon/ -type d -name "????????"
+  556  find Pokemon/ -type d -name "?{8}"
+  557  find Pokemon/ -type d -name "?{7,10}"
+  558  find Pokemon/ -type d -name "*{8}"
+  559  find Pokemon/ -type d -name "*{7,10}"
+  560  find Pokemon/ -type d -name "?{7}"
+  561  find Pokemon/ -type d -name "???????"
+  562  find Pokemon/ -type d -name "????????*"
+  563  find Pokemon/ -type d -name "?\{7,10\}"
+  564  find Pokemon/ -type d -name "?/{7,10/}"
+  565  find Pokemon/ -type d -name "?\{7,10}"
+  566  find Pokemon/ -type d -name "?\{7,10\}"
+  567  find Pokemon/ -type d -name "????????*"
+  568  cd Desktop
+  569  mkdir -p WorldCup2022/{Africa/{Ghana,Senegal,Egypt},Europe/{Netherlands,England,Spain}}
+  570  cd WorldCup2022/
+  571  tree
+  572  tree .
+  573  mv Africa/Egypt Africa/Morroco
+  574  tree .
+  575  cp Europe/Spain Africa/Senegal/
+  576  tree
+  577  cp -r Europe/Spain Africa/Senegal/
+  578  tree
+  579  rmdir Africa/Senegal/Spain
+  580  tree
+  581  ascii -d
+  582  sudo apt install ascii
+  583  ascii -d
+  584  cd Desktop/
+  585  mkfir -p grocery/{Fruit/{Mango,Eggs},Veges/{Celery,Onion}}
+  586  mkdir -p grocery/{Fruit/{Mango,Eggs},Veges/{Celery,Onion}}
+  587  cd grocery/
+  588  tree
+  589  mv ~/Desktop/grocery/Fruit/Eggs/ ~/Desktop/grocery/Fruit/Apple
+  590  tree
+  591  pwd
+  592  cd Veges/Onion/
+  593  touch file{1..3}.txt
+  594  echo "hello" >> file1.txt
+  595  echo "world" >> file2.txt
+  596  cat file1.txt file2.txt
+  597  cat file1.txt file2.txt >> new
+  598  cat new
+  599  mkdir ../../Fruit/Apple/apple_{red,green,yello}
+  600  tree ../../
+  601  git --version
+  602  clear
+  603  git --version
+  604  sudo apt install git
+  605  git --version
+  606  cd Desktop
+  607  mkdir newDir
+  608  cd newDir
+  609  ls
+  610  ls -la
+  611  touch git.txt
+  612  ls -la
+  613  git --help
+  614  git init
+  615  ls -la
+  616  git status
+  617  touch demo.txt
+  618  ls 0la
+  619  ls -la
+  620  git status
+  621  git add .
+  622  git status
+  623  git rm --cached demo.txt
+  624  git status
+  625  git add demo.txt
+  626  git status
+  627  git commit -m 'added demo.txt and git.txt'
+  628  git config --global user.email "kinanhino24@gmail.com"
+  629  git config --global user.name "kinanhino"
+  630  git commit -m 'added demo.txt and git.txt'
+  631  git status
+  632  echo "hello world" > git.txt
+  633  git status
+  634  touch newfile
+  635  git status
+  636  git add .
+  637  git status
+  638  git commit -m 'adding new file'
+  639  git log
+  640  echo hello
+  641  cd Desktop/ZOO
+  642  cd pets/birds
+  643  cd pets/duck
+  644  cd ../../birds/hamster ../
+  645  mv ../../birds/hamster ../
+  646  pwd ../hamster
+  647  cd ../hamster
+  648  pwd
+  649  cd ../duck
+  650  mv ~/Desktop/ZOO/pets/hmaster ~/Desktop/ZOO/pets/dogs
+  651  mv ~/Desktop/ZOO/pets/hamster ~/Desktop/ZOO/pets/dogs
+  652  cd ../../birds/eagle
+  653  mv ../../pets/duck ../
+  654  touch ../parrot/redparrot
+  655  ls ../parrot
+  656  echo "parrot parrot parrot" > ../parrot/redparrot
+  657  cat ../parrot/redparrot
+  658  mv ../parrot/redparrot ../
+  659  touch ../blue-parrot
+  660  cp blue-parrot ../*
+  661  ls ../
+  662  find -d ../
+  663  find -type d ../
+  664  find -type -d ../
+  665  find ../ -type d
+  666  cp ../blue-parrot ../duck ../parrot ../eagle
+  667  cp -r ../blue-parrot ../duck ../parrot ../eagle
+  668  touch ../green-parrot
+  669  find -type d -exec cp green-parrot {}
+  670  find -type d -exec cp green-parrot {} \;
+  671  find -type d -exec cp ../green-parrot {} \;
+  672  history
+  673  cd ~/Desktop 
+  674  rm -r ZOO
+  675  cd Desktop
+  676  mkdir ZOO
+  677  mkdir ZOO/birds ZOO/pets
+  678  cd ZOO
+  679  mkdir birds/{parrot,eagle,hamster} pets/{duck,cat}
+  680  tree .
+  681  rm -r . && cd ..
+  682  cd .. & rm -r ZOO
+  683  cd ..
+  684  rm -r ZOO
+  685  mkdir -p ZOO/{birds/{parrot,eagle,hamster},pets/{duck,cat}}
+  686  tree ZOO
+  687  cd ~/Desktop/ZOO/birds/eagle
+  688  pwd
+  689  cd /home/kinan/Desktop/ZOO/birds
+  690  ls -la
+  691  cd hamster
+  692  pwd
+  693  cd ../../pets/duck
+  694  ifconfig
+  695  history
+  696  mkdir GitDemo
+  697  touch GitDemo/Hello.txt
+  698  cd gitDemo
+  699  cd GitDemo
+  700  git init
+  701  ls -la
+  702  echo "Hello World" > Hello.txt
+  703  git add .
+  704  git status
+  705  git commit -m "first daily commit"
+  706  ip addr
+  707  ip address
+  708  ifconffig
+  709  sudo apt install net-tools
+  710  cd ..
+  711  mkdir birds/{parrot,eagle,hamster} pets/{duck,cat}
+  712  mkdir -p birds/{parrot,eagle,hamster} pets/{duck,cat}
+  713  cd birds
+  714  touch file1
+  715  ls
+  716  cp file1 .
+  717  cp file1 ./*
+  718  find -type d
+  719  find . -type d
+  720  find . -type d -exec cp file1 {} \;
+  721  find . -type d -exec mv file1 {} \;
+  722  ifconfig
+  723  mkdir GitPoker
+  724  cd GitPoker
+  725  cd ..
+  726  ls -l
+  727  touch Flush.txt
+  728  cd GitPoker
+  729  rm ../FLush.txt
+  730  rm ../Flush.txt
+  731  touch Flush.txt
+  732  git init
+  733  ls
+  734  ls -a
+  735  echo "Royal flush is a big lucky hand" > Flush.txt
+  736  git status
+  737  git add .
+  738  git status
+  739  git commit -m "my first commit"
+  740  git log
+  741  locate var
+  742  sudo apt install mlocate
+  743  locate var
+  744  locate newDir
+  745  find ../ newDir
+  746  find ../newDir
+  747  find ../ -name 'newDir'
+  748  updatedb
+  749  sudo updatedb
+  750  cd ../Desktop/
+  751  mkdir test1 test2 \ test3
+  752  mkdir test1 test2 / test3
+  753  mkdir -p aws-services/{compute/{cloudwatch,ebs,lambda},storage/{ec2,EFS,s3}}
+  754  rmdir aws-services/compute/cloudwatch
+  755  touch aws-services/storage/s3/s3file.txt
+  756  vim aws-services/storage/s3/s3file.txt
+  757  cat aws-services/storage/s3/s3file.txt
+  758  cd aws-services/storage/EFS
+  759  cp ../s3/s3file.txt ../
+  760  tree ../../..
+  761  tree ../../
+  762  rm ../s3file.txt
+  763  tree ../../
+  764  touch ../../compute/lambda/file{1..12}.txt
+  765  tree ../../
+  766  cd ../..
+  767  ls compute/lambda/*1*
+  768  ls compute/lambda/*[0-9][0-9]*
+  769  ls -l compute/lambda/*[0-9][0-9]*
+  770  touch compute/lambda/xxx
+  771  rm compute/lambda/xxx
+  772  mkdir compute/lambda/xxx
+  773  cd compute/lambda
+  774  mv * xxx
+  775  tree ../../
+  776  rm -r .
+  777  rm -r *
+  778  cd
+  779  tree ../
+  780  cd -
+  781  cd ..
+  782  tree
+  783  cd ..
+  784  rm -r aws-services
+  785  ls -l | grep aws
+  786  mkdir test
+  787  cd test
+  788  echo "Welcome" > source.file
+  789  cat source.file 
+  790  ln -s ~/source.file softlink.file
+  791  cat softlink.file 
+  792  locate softlink.file 
+  793  ls -lia
+  794  ln -s ~/test/source.file softlink.file
+  795  ln -s ~/test/source.file softlink2.file
+  796  ls -lia
+  797  ln -s source.file softlink3.file
+  798  ls -lia
+  799  cat softlink3.file 
+  800  stat source.file
+  801  state softlink2.file
+  802  stat softlink2.file
+  803  rm source.file
+  804  cat softlink2.file
+  805  rm -r soft*
+  806  ls -lia
+  807  echo welcome > source.file
+  808  cat source.file 
+  809  ln source.file hardli
+  810  cat hardli 
+  811  ls -lia
+  812  stat source.file 
+  813  stat hardli 
+  814  rm source.file
+  815  cat hardli 
+  816  ls -lia
+  817  rm hardli
+  818  history
+  819  pwd
+  820  mkdir -p Cloud/{Storage/{VPC.S3,Redshift},database/{RDS,DynamoDB}}
+  821  tree Clo
+  822  rm -r Cloud
+  823  history
+  824  pwd
+  825  mkdir -p Cloud/{Storage/{VPC,S3,Redshift},database/{RDS,DynamoDB}}
+  826  tree Cloud
+  827  cd Cloud/Storage/VPC
+  828  mv . EBS
+  829  mv ../VPC ../EBS
+  830  mv ../Redshift ../../Storage/
+  831  tree ../../
+  832  mv ../Redshift ../../database/
+  833  echo "S3 is object storage, EBS is block storage designed for EC2, EFS is file storage" > ../EBS/factstorage
+  834  cp ../EBS/facestorage ../S3
+  835  cd
+  836  cd ..
+  837  cd ~/Clou
+  838  tree
+  839  cd/Storage/EBS
+  840  cd Storage/EBS
+  841  cp factstorage ../S3
+  842  cp factstorage ../../database/DynamoDB
+  843  rm -r ../../../Cloud
+  844  cd ~
+  845  ls Cloud
+  846  whoami
+  847  who am i
+  848  adduser demo
+  849  sudo adduser demo
+  850  demo
+  851  sudo demo
+  852  su - demo
+  853  su - demo && whoami
+  854  su
+  855  sudo usermod -aG demo
+  856  sudo ls /root
+  857  cd /
+  858  su - demo
+  859  exit
+  860  sudo usermod -aG demo
+  861  su
+  862  apt install sudo
+  863  sudo apt install sudo
+  864  su
+  865  userdel demo
+  866  sudo userdel demo
+  867  users
+  868  sudo users
+  869  su -
+  870  mkdir GitPoker
+  871  rm GitPoker
+  872  rm -r GitPoker
+  873  rm -rf GitPoker
+  874  mkdir GitPoker
+  875  cd GitPoker
+  876  touch Flush.txt
+  877  git init
+  878  history | grep Flush
+  879  history
+  880  history | grep demo
+  881  su -
+  882  sudo apt update
+  883  cd ..
+  884  ls
+  885  sudo rm -r /home/demo/
+  886  ls
+  887  sudo su
+  888  su -
+  889  su
+  890  sudo su
+  891  cd ~
+  892  rm test
+  893  rmdir test
+  894  whatis ls
+  895  whatis cd
+  896  whatis pwd
+  897  whatis cd
+  898  whatis chmod
+  899  man chmod
+  900  ch
+  901  sudo apt install ch
+  902  sudo apt-get update
+  903  date
+  904  mkdir git-basics-practice; cd git-basics-practice
+  905  git init
+  906  ls -a
+  907  ls -la
+  908  pwd
+  909  touch file{1..3}.txt
+  910  git status
+  911  git add .
+  912  git status
+  913  git commit -m "first commit"
+  914  git log
+  915  echo "hello world from my linux" > file1.txt
+  916  git status
+  917  git add file1.txt
+  918  git commit -m "second commit"
+  919  git remote add origin https://github.com/kinanhino/my-first-git.git
+  920  git branch -M main
+  921  git push -u origin main
+  922  git remote add origin https://github.com/kinanhino/my-first-git.git
+  923  git branch -M main
+  924  echo $0
+  925  echo $$
+  926  echo $1
+  927  echo $#
+  928  git branch -M main
+  929  echo $#
+  930  git push -u origin main
+  931  git remote add origin git@github.com:kinanhino/my-first-git.git
+  932  git push -u origin master
+  933  git remote add origin https://github.com/kinanhino/my-first-git.git
+  934  git push origin master
+  935  git remote add origin https://github.com/kinanhino/my-first-git.git
+  936  git remote -v
+  937  git push -u origin master
+  938  git push -u origin main
+  939  git push origin main
+  940  sudo git push origin main
+  941  mkdir git-basics-practice; cd git-basics-practice
+  942  cd ..; rm -r git-basics-practice
+  943  y
+  944  ls
+  945  mkdir git-basics-practice; cd git-basics-practice
+  946  echo "# my-first-aws-git" >> README.md
+  947  git init
+  948  git add README.md 
+  949  touch file1.txt file2.txt
+  950  git add .
+  951  git commit -m "first commit"
+  952  git branch -M main
+  953  git remote add origin https://github.com/kinanhino/my-first-git.git
+  954  git push -u origin main
+  955  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
+  956  git push -u origin main
+  957  git remote add origin https://github.com/kinanhino/my-first-git
+  958  git push -u origin main
+  959  git push -u origin master
+  960  git push -u origin main
+  961  echo "gogogogogogogogogogogogogoogo"
+  962  cd ~
+  963  mkdir -p BIG/{clothes/{mango,zara,scara},cosmetics/{flormar,Shilav}; touch BIG/clothes/zara/zara{f,f1}.txt BIG/cosmetics/flormar/flormarf.txt
+  964  tree BIG
+  965  rm -r BIG
+  966  mkdir BIG/{clothes/{mango,zara,scara},cosmetics/{flormar,Shilav}}; touch BIG/clothes/zara/zara{f,f1}.txt BIG/cosmetics/flormar/flormarf.txt
+  967  tree BIG
+  968  mkdir BIG/{clothes/{mango,zara,scara},cosmetics/{flormar,Shilav}}
+  969  rm -r BIG
+  970  mkdir -p BIG/{clothes/{mango,zara,scara},cosmetics/{flormar,Shilav}}
+  971  touch BIG/clothes/zara/zara{f,f1}.txt BIG/cosmetics/flormar/flormarf.txt
+  972  tree BIG
+  973  whoami
+  974  hostname
+  975  cd /home/kinan/BIG
+  976  mv cosmetics/Shilav clothes/
+  977  cd clothes/mango
+  978  mv ../scara ../../cosmetics/
+  979  cp ../zara/zaraf1.txt ../zara/zaraf2.txt ../
+  980  cp ../zara/zaraf1.txt ../zara/zaraf.txt ../
+  981  tree
+  982  tree ../../
+  983  ls -l .. > ~/Desktop/lsclothes.txt
+  984  ls -l .. | tee ~/Desktop/iList.txt
+  985  cut -c1-10 | tee -a ~/Desktop/iList.txt
+  986  ls -l .. | cut -c1-10 | tee -a ~/Desktop/iList.txt
+  987  ls -l .. | cut -c2-10 | tee -a ~/Desktop/iList.txt
+  988  ls -l .. | cut -d " " -f6-10 | tee -a ~/Desktop/iList.txt
+  989  ls -lr .. | cut -d " " -f6-10 | tee -a ~/Desktop/iList.txt
+  990  chmod 764 ../zara
+  991  ls -l | grep zara
+  992  ls -l .. | grep zara
+  993  chmod 777 ../zara
+  994  ls -l .. | grep zara
+  995  touch {111,222,333,444,555,666,777}.txt
+  996  chmod 777 {222,111}.txt
+  997  chmod 444 333.txt
+  998  chmod 664 444.txt
+  999  chmod 464 555.txt
+ 1000  chmod 444 {666,777}.txt
+ 1001  ls -l | cut -c2 | grep r | tee -a ~/Desktop/iList.txt 
+ 1002  awk -F "" '{if($2=="r") ($print $0}' | tee -a ~/Desktop/iList.txt
+ 1003  awk -F "" '{if($2=="r") $print $0;}' | tee -a ~/Desktop/iList.txt
+ 1004  awk -F "" '{if($2=="r") print $0;}' | tee -a ~/Desktop/iList.txt
+ 1005  awk -F "" '{if($2=="r") print $0;}' 
+ 1006  awk -F '{if($2=="r") print $0;}' 
+ 1007  awk -F '{ print $1;}' 
+ 1008  ls -l | awk -F "" '{if($2=="r") print $0;}' 
+ 1009  ls -l | awk -F "" '{if($2=="r") print $0;}' | tee -a ~/Desktop/iList.txt 
+ 1010  ls -l | awk -F "" '{if($w=="w") print $0;}' | tee -a ~/Desktop/iList.txt 
+ 1011  ls -l | awk -F "" '{if($3=="w") print $0;}' | tee -a ~/Desktop/iList.txt 
+ 1012  ls -l | awk -F "" '{if($6=="w") print $0;}' | tee -a ~/Desktop/iList.txt 
+ 1013  echo "hello" > .secret.txt
+ 1014  ls
+ 1015  ls -a
+ 1016  touch numbers.txt
+ 1017  nano numbers.txt
+ 1018  cat numbers.txt
+ 1019  cat -r numbers.txt
+ 1020  man cat
+ 1021  history
+ 1022  cd BIG
+ 1023  cd clothes/mango
+ 1024  ls
+ 1025  awk '{print $0}'  numbers.txt
+ 1026  awk -a '{print $0}'  numbers.txt
+ 1027  man awk
+ 1028  awk --help
+ 1029  man awk
+ 1030  sort numbers.txt
+ 1031  sort --help
+ 1032  sort -n numbers.txt
+ 1033  sort -nr numbers.txt
+ 1034  cd ../../../
+ 1035  rm -r BIG
+ 1036  y
+ 1037  ls BIG
+ 1038  history > ~/Desktop/hist.txt
+ 1039  history tail -100 > ~/Desktop/hist.txt
+ 1040  history tail -n 100 > ~/Desktop/hist.txt
+ 1041  history tail > ~/Desktop/hist.txt
+ 1042  tail history > ~/Desktop/hist.txt
+ 1043  history | tail > ~/Desktop/
+ 1044  history | tail > ~/Desktop/hist.txt
+ 1045  history | tail -100 > ~/Desktop/hist.txt
+ 1046  nano file.sh
+ 1047  chmod u+x file.sh
+ 1048  ./file.sh
+ 1049  bash file.sh
+ 1050  cd Desktop/
+ 1051  openssl genrsa -aes256 -out private.key 1024
+ 1052  openssl rsa -in private.key -pubout -out public.key
+ 1053  nano message.txt
+ 1054  openssl rsautl -encrypt -pubin -inkey public.key -in message.txt -out encrypted_message.txt
+ 1055  openssl rsautl -decrypt -inkey private.key -in encrypted_message.txt
+ 1056  openssl rsautl -decrypt -inkey private.key -in encrypted_message.txt -out decrypted-message.txt
+ 1057  openssl dgst -sha256 -sign private.key -out signature.txt message.txt
+ 1058  openssl dgst -sha256 -verify public.key -signature signature.txt message.txt
+ 1059  openssl dgst -sha256 -verify public.key -signature signature.txt message.tt
+ 1060  nano message.tt
+ 1061  openssl dgst -sha256 -verify public.key -signature signature.txt message.tt
+ 1062  openssl dgst -sha256 -verify public.key -signature signature.txt message.txt
+ 1063  openssl dgst -sha256 -verify public.key -signature signature.txt decrypted_message.txt
+ 1064  openssl dgst -sha256 -verify public.key -signature signature.txt decrypted-message.txt
+ 1065  cd my-git-project/
+ 1066  git config --global user.name "kinan"
+ 1067  git config --global user.name "kinanhino"
+ 1068  git config --global user.email "kinanhino24@gmail.com"
+ 1069  git remote set-url origin git@github.com:kinanhino/my-git-project.git
+ 1070  git push -u origin main
+ 1071  git push -u origin master
+ 1072  git pull origin main
+ 1073  ping github.com
+ 1074  ping google.com
+ 1075  cat /etc/resolv.conf
+ 1076  sudo echo "nameserver 8.8.8.8" > /etc/resolv.conf
+ 1077  echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+ 1078  ping google.com
+ 1079  git pull origin main
+ 1080  git push -u origin main
+ 1081  git push -u origin master
+ 1082  git status
+ 1083  nano script.sh
+ 1084  git status
+ 1085  git add .
+ 1086  git commit -m "added simple script"
+ 1087  git push -u origin master
+ 1088  git status
+ 1089  git log
+ 1090  exit
+ 1091  nano fileto
+ 1092  cat fileto | tail -6
+ 1093  cat fileto | tail -4
+ 1094  cat fileto | tail -6
+ 1095  cat fileto | tail -6 | head -4
+ 1096  cat fileto | wc -l
+ 1097  cat fileto | tail -4
+ 1098  cat fileto | tail -5
+ 1099  cat fileto | tail -5 | head -4
+ 1100  mkdir -p AWS/{DB/{RDS,DynamoDB},Deployment_model/{S3,Hybrid,RedShift,cloud}}
+ 1101  cd AWS/Deployment_model/Hybrid/
+ 1102  mv ../Hybrid ../../DB/
+ 1103  cd ..
+ 1104  cd -
+ 1105  cd Hybrid
+ 1106  mv ../../Deployment_model/S3 ../../Deployment_model/on-premise
+ 1107  tree ../..
+ 1108  cp ../../DB ../../Deployment_model/
+ 1109  cp -r ../../DB ../../Deployment_model/
+ 1110  tree ../../
+ 1111  rm -r ../../../AWS
+ 1112  cd ..
+ 1113  cd ../../../
+ 1114  tree
+ 1115  history
+ 1116  SSScd~
+ 1117  cd~
+ 1118  pwd
+ 1119  users
+ 1120  ls -l
+ 1121  cd kinan
+ 1122  pwd
+ 1123  ~
+ 1124  cd ~
+ 1125  cd -
+ 1126  mkdir my-git-project
+ 1127  cd my-git-project
+ 1128  git init
+ 1129  git status
+ 1130  touch file{1..3}.txt
+ 1131  nano file1.txt
+ 1132  git status
+ 1133  git commit -m "first project commit"
+ 1134  git add .
+ 1135  git commit -m "first project commit"
+ 1136  curl -sS https://www.gutenberg.org/files/730/730-0.txt | tr -cd '[:alpha:][:space:]' | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' '\n' | sort | uniq -c | sort -nr | head -n 10
+ 1137  sudo apt  install curl
+ 1138  sudo apt-get update
+ 1139  sudo apt install curl
+ 1140  --fix-missing
+ 1141  sudo apt install curl --fix-missing
+ 1142  curl -sS https://www.gutenberg.org/files/730/730-0.txt | tr -cd '[:alpha:][:space:]' | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' '\n' | sort | uniq -c | sort -nr | head -n 10
+ 1143  sudo snap install curl
+ 1144  sudo apt-get install aptitude
+ 1145  sudo aptitude install grive-tools
+ 1146  run apt-get update
+ 1147  apt-get update
+ 1148  sudo apt-get update
+ 1149  git log
+ 1150  curl --version
+ 1151  sudo su
+ 1152  history
+ 1153  sudo apt-get install aptitude
+ 1154  sudo apt-get install aptitude --fix-missing
+ 1155  git remote add origin https://github.com/kinanhino/my-git-project.git
+ 1156  echo $0
+ 1157  echo $#
+ 1158  get remote -v
+ 1159  git remote -v
+ 1160  git push origin main
+ 1161  git push origin master
+ 1162  git push origin 
+ 1163  git push -f origin master
+ 1164  ifconfig
+ 1165  ssh-keygen -t ed25519 -C "kinanhino24@gmail.com"
+ 1166  cat ~/.ssh/id_ed25519.pub
+ 1167  openssh-server --version
+ 1168  sudo apt get update
+ 1169  sudo apt install openssh-server
+ 1170  sudo service ssh start
+ 1171  exit
+ 1172  ip addr show | grep inet
+ 1173  exit
+ 1174  cd Desktop
+ 1175  mkdir newGit
+ 1176  cd newGit
+ 1177  touch file1
+ 1178  git ini
+ 1179  git init
+ 1180  git add .
+ 1181  git commit -m "first comm"
+ 1182  git branch
+ 1183  git push origin master
+ 1184  git remote add origin https://github.com/kinanhino/newGit.git
+ 1185  git remote
+ 1186  git branch
+ 1187  git branch -M main
+ 1188  git branch
+ 1189  git push origin main
+ 1190  git --version
+ 1191  sudo apt-get update
+ 1192  sudo apt install git-credential-manager-core
+ 1193  git-credential-manager-core
+ 1194  git config --global credential.helper osxkeychain
+ 1195  git config --global credential.helper store
+ 1196  gh
+ 1197  winget install --id GitHub.cli
+ 1198  sudo apt install gh
+ 1199  gh auth login
+ 1200  mkdir haha; cd haha
+ 1201  git init
+ 1202  git commit -m "comm"
+ 1203  git branch -M main
+ 1204  git branch
+ 1205  git log
+ 1206  touch file
+ 1207  git add .
+ 1208  git commit -m "comm"
+ 1209  git log
+ 1210  git branch
+ 1211  git remote add origin https://github.com/kinanhino/haha.git
+ 1212  git push -u main
+ 1213  git push -u master main
+ 1214  git push -u origin main
+ 1215  sudo apt install curl
+ 1216  cd ..
+ 1217  rm -r newGit
+ 1218  mkdir my-git-project; cd my-git-project
+ 1219  git init
+ 1220  git status
+ 1221  touch file{1..3}.txt
+ 1222  nano file1.txt
+ 1223  git status
+ 1224  git add .
+ 1225  git commit -m "first project commit"
+ 1226  git log
+ 1227  history | grep curl
+ 1228  curl -sS https://www.gutenberg.org/files/730/730-0.txt | tr -cd '[:alpha:][:space:]' | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' '\n' | sort | uniq -c | sort -nr | head -n 10
+ 1229  curl -sS https://www.gutenberg.org/files/730/730-0.txt | tr -cd '[:alpha:][:space:]' | tr '[:upper:]' '[:lower:]' | tr -s '[:space:]' '\n' | sort | uniq -c | sort -nr | head -n 10 > linux.txt
+ 1230  git branch -M main
+ 1231  git remote add origin https://github.com/kinanhino/linux.git
+ 1232  git push -u origin main
+ 1233  cat file2.txt
+ 1234  cat file1.txt
+ 1235  git pull origin main
+ 1236  cat file2.txt
+ 1237  history > ~/Desktop/historyclass4
+ 1238  mkdir -p grocery/{bakery/bread/{cholla,focaccia},drinks/{juices/{Pepsi,Coke}}}
+ 1239  tree
+ 1240  tree grocery
+ 1241  rm -r grocery
+ 1242  mkdir -p grocery/{bakery/bread/{cholla,focaccia},drinks/juices/{Pepsi,Coke}}
+ 1243  tree grocery
+ 1244  touch grocery/drinks/juices/Coke/Coke_not_healthy
+ 1245  chmod 555 grocery/drinks/juices/Coke/Coke_not_healthy
+ 1246  touch grocery/drinks/juices/Pepsi/Pepsi_zero
+ 1247  chmod 775 grocery/drinks/juices/Pepsi/Pepsi_zero
+ 1248  ls -la
+ 1249  ls -la gorcery
+ 1250  ls -la grocery
+ 1251  ls -la grocery/bakery
+ 1252  ls -la grocery/drinks
+ 1253  ls -la grocery/drinks/juices
+ 1254  ls -la grocery/drinks/juices/Coke
+ 1255  ls -la grocery/drinks/juices/Pepsi
+ 1256  cp grocery/drinks/juices/Pepsi/Pepsi_zero grocery/bakery/bread/cholla/
+ 1257  cp grocery/drinks/juices/Pepsi/Pepsi_zero grocery/bakery/bread/focaccia/
+ 1258  mv grocery/bakery/bread/cholla grocery/bakery/bread/Petta
+ 1259  mv grocery/bakery/bread/Petta grocery/drinks/
+ 1260  tree grocery
+ 1261  rm -r grocery
+ 1262  history > ~/Desktop/hisss
+ 1263  historty
+ 1264  history
+ 1265  mkdir setgid_hands_on; cd setgid_hands_on
+ 1266  mkdir shared_directory
+ 1267  sudo useradd -M -s /bin/bash user1
+ 1268  sudo useradd -M -s /bin/bash user2
+ 1269  cut -d: -f1 /etc/passwd
+ 1270  sudo groupadd file_sharing_group
+ 1271  sudo usermod -aG file_sharing_group user1
+ 1272  sudo usermod -aG file_sharing_group user2
+ 1273  grep file_sharing_group /etc/group
+ 1274  sudo chown :file_sharing_group shared_directory
+ 1275  sudo chmod 2775 shared_directory
+ 1276  sudo -u user1 touch shared_directory/file1.txt
+ 1277  ls -l shared_directory
+ 1278  history > ~/Desktop/hiss.txt
+ 1279  cd Desktop/AWS/Git/my-git-project
+ 1280  git pull origin main
+ 1281  history >> daily04
