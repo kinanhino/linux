@@ -1,1 +1,4 @@
+Hello from Windows
+hello again from Linux
+pscp C:/Users/kino/Desktop/sample.txt kinan@192.168.118.129:/home/kinan/Desktop/AWS/Git/my-git-project/SCP_command.txt
 
